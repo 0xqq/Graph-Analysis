@@ -4,16 +4,14 @@
 
 图分析系统(Graph Analysis System)又名关联分析系统(Association Analysis System)，
 该系统的研发旨在支持大规模图数据的交互式可视化分析，图数据在当今世界数量极其庞大，
-怎么利用这些数据成为数据科学家不得不考虑的问题，该系统解提供了一种解决方案，博士阶段会集成分类、模式挖掘等算法，
-逐渐开源该系统。
+怎么利用这些数据成为数据科学家不得不考虑的问题，该系统解提供了一种解决方案。
 
 #### **功能模块**
 
 * 用户管理模块
 * 数据源模块
     * 支持数据库
-        * 目前数据库支持MySQL、PostgreSQL、Greenplum(2017/4/26)、pipelineDB(2017-7-5)，OrientDB、Redis作为中间数据库层
-            * 还需要尝试TimescaleDB、deepgreen这些基于PostgreSQL 9.5.X版本的数据库
+        * 目前数据库支持MySQL、PostgreSQL、Greenplum、pipelineDB，OrientDB、Redis作为中间数据库层
     * 支持文件格式
         * 目前只支持JSON数据格式，需要扩展支持的文件格式
 * 图展示模块
